@@ -74,6 +74,9 @@ html{
    font-size: 25px;
    color: #a8a8a8;
 }
+#inicio h1 {
+    text-align:center;
+}
 
 #inicio .carrusel{
     position: relative;
@@ -111,76 +114,79 @@ html{
     object-fit: cover;
 }
 
-#menu{
+#sucursales{
     padding: 50px 0;
 }
-#menu h2{
+#sucursales h2{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
 }
-#menu .fila{
+#sucursales .fila{
     display: flex;
     max-width: 1000px;
     margin: auto;
 }
-#menu .fila .item img{
+#sucursales .fila .item img{
     max-width: 90px;
 }
-#menu .fila .item{
+#sucursales .fila .item{
     display: flex;
     align-items:center;
     margin: 20px 10px;
     padding: 5px;
 }
-#menu .fila .item:hover{
-    background-color:#50a4f1
+#sucursales .fila .item:hover{
+    background-color:#79d69d
 }
-#menu .fila .item .info{
+#sucursales .fila .item .info{
     margin-left: 20px;
     font-size: 14px;
 }
-#menu .fila .item .info ul{
+#sucursales .fila .item .info ul{
     margin-left: 20px;
     font-size: 14px;
 }
 
-#platos h2{
+#autores h2{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 30px;
 }
-#platos .fila{
+#autores .fila{
     max-width: 1100px;
     margin:auto;
     display: flex;
     justify-content: center;
 }
-#platos .fila .item{
+#autores .fila .item{
     width: 33%;
     position:relative;
     overflow: hidden;
 }
-#platos .fila .item img{
+#autores .fila .item img{
     width: 100%;
     display: block;
 }
-#platos .fila .item p{
+#autores .fila .item p{
     position:absolute;
     width: 100%;
     bottom: -100%;
     padding: 10px;
-    background-color:#50a4f1;
+    background-color:#0921aa;
     color: #fff;
     transition: .5s;
 }
-#platos .fila .item:hover p{
+#autores .fila .item:hover p{
     bottom: 0;
 }
 
 #contacto{
     padding: 50px 0;
+}
+#contacto p{
+    text-align: center;
 }
 #contacto h2{
     text-align: center;
